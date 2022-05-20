@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background: url(./home.jpg)no-repeat center center/cover;
+ height: 100vh;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(139, 136, 136);
+    height: 59px;
+}
+#navbar::before{
+    
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#main ul li{
+    display: inline-block;
+    margin: 10px 40px 0px 0px;
+    font-size: 2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.logoimg{
+    height: 95px;
+    margin:-14px 0px 0px 10px ;
+}
+.button{
+    margin: 9px 10px 0px 0px;
+    border: 2px solid white ;
+    height: 41px;
+    width: 122px;
+    padding:5px 3px 7px 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.button:hover{
+  background-color: red;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 190px 0px 0px -2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.5rem; 
+    text-align: center;
+    margin: 20px 90px;
+}
+.btn{
+    margin: 9px 10px 0px 0px;
+    border: 2px solid red ;
+    height: 41px;
+    width: 164px;
+    padding:5px 3px 7px 10px;
+    cursor: pointer;
+    color: rgb(7, 6, 6);
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+ left: 700px;
+}
+.btn:hover{
+background-color: red;
+}
